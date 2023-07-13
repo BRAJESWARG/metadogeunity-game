@@ -1,0 +1,373 @@
+.Header {
+    color: whitesmoke !important;
+    background-image: url('../Components/Image/War_land.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    /* width: 120% !important; */
+    background-size: cover;
+    height: 80rem;
+    margin-left: 0;
+}
+
+.header-content {
+    position: relative;
+    padding: 16rem;
+}
+
+.quote-box {
+    position: relative;
+    text-align: left;
+    margin-left: -20rem;
+}
+
+.presale {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.presale-live {
+    color: orangered;
+}
+
+.worlds-first {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Inspired {
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(0 181 255);
+}
+
+.Inspired-with {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Inspired-with-MetaDogeUnity {
+    font-weight: 600;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Invest-text {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Invest-Engage {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card {
+    position: relative;
+    /* background: transparent !important; */
+    /* border: 1px solid #070320 !important; */
+    width: 165% !important;
+    color: aliceblue !important;
+    box-shadow: var(0 0 #0000, 0 0 #0000), var(0 0 #0000, 0 0 #0000), var(0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1));
+    /* margin-left: 10rem !important; */
+    transition-property: opacity, transform, -webkit-transform !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: #042433d1;
+    border: 6px solid #029ba2;
+    border-image: initial;
+    border-radius: 30px;
+}
+
+.timer-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    place-items: center;
+}
+
+.timer-box>div {
+    background: #035164;
+    border-radius: 10px;
+    color: #d6e0e3;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 18px;
+    text-align: center;
+    width: 90%;
+}
+
+.line {
+    align-items: center;
+    background: #035164;
+    border-radius: 30px;
+    display: flex;
+    height: 25px;
+    justify-content: flex-start;
+    margin: 15px 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.line-color {
+    width: 45%;
+    background: #00fbf4;
+    height: 100%;
+}
+
+.USDT-raised {
+    color: #c9d2d7;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0 10px;
+    text-align: center;
+}
+
+.purchased-dr {
+    padding: 10px 0px 9px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.4;
+    color: rgb(201, 210, 215);
+    font-family: "Work Sans";
+    font-size: 16px;
+}
+
+.USDT-dr {
+    margin: 10px 0px 9px;
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    height: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    white-space: nowrap;
+}
+
+.USDT-dr:not(:empty) {
+    gap: 1rem;
+}
+
+.USDT-dr:before {
+    background-color: #02808687;
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    width: 100%;
+    --tw-bg-opacity: .1;
+    box-sizing: border-box;
+}
+
+.USDT-dr::after {
+    background-color: #02808687;
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    width: 100%;
+    --tw-bg-opacity: .1;
+    box-sizing: border-box;
+}
+
+.USDT-dr-text {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: rgb(201, 210, 215);
+    font-family: "Work Sans";
+    /* font-size: 12px; */
+}
+
+.ETH-USDT-box {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 10px 0 15px;
+}
+
+.item {
+    align-items: center;
+    background: #035164;
+    border-radius: 6px;
+    display: flex;
+    gap: 10px;
+    height: 36px;
+    padding: 2px 15px 2px 8px;
+}
+
+.item-img {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+}
+
+.item-head {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ETH-USDT-balance {
+    text-align: center;
+    width: 80%;
+    line-height: 1.4;
+    color: rgb(201, 210, 215);
+    font-family: "Work Sans";
+    font-size: 16px;
+    margin: auto;
+    padding: 5px;
+}
+
+.ETH-DR-payment {
+    grid-gap: 1rem;
+    border-top: 1px solid #02808687;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+
+.payment-info {
+    grid-gap: 10px;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.payment-info-top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-info-top-text {
+    color: #a9b7ba;
+    font-size: 12px;
+    padding: 5px;
+    font-family: Rajdhani, sans-serif;
+}
+
+.payment-info-button {
+    display: flex;
+    gap: 5px;
+}
+
+.payment-info-button>button {
+    background: #00000075;
+    border: 0;
+    border-radius: 4px;
+    color: #b1bcbe;
+    font-size: 12px;
+    font-size: 16px !important;
+    padding: 4px 6px;
+    font-family: Barlow-medium !important;
+    font-weight: 500 !important;
+}
+
+.payment-info-bottom {
+    background: #035164;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.payment-info-logo {
+    align-items: center;
+    bottom: 5px;
+    display: flex;
+    font-family: Barlow-medium;
+    font-size: 18px;
+    font-weight: 100;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.logo {
+    align-items: center;
+    border-radius: 100px;
+    bottom: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    /* -webkit-transform: translateY(-50%); */
+    transform: translateY(-50%);
+    width: 35px;
+}
+
+.logo-img {
+    border-radius: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.payment-info-input {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.input-form {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    font-size: 16px;
+    height: 50px;
+    outline: none;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.buynow-button {
+    all: unset;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1;
+    flex-shrink: 0;
+    box-shadow: none;
+    border-radius: 8px;
+    padding: 12px;
+    animation: 300ms ease 0s 1 normal none running animation-plwpox;
+    margin-top: 1.5rem;
+
+    background: #029ba2 !important;
+    border: 2px solid #029ba2 !important;
+    border-radius: 10px !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    font-family: Work Sans !important;
+    height: 50px !important;
+    justify-self: self-end !important;
+    min-width: 100% !important;
+    text-transform: uppercase !important;
+    transition: all .3s !important;
+    width: 100% !important;
+
+    font-size: 18px !important;
+    font-weight: 500 !important;
+
+    overflow: visible;
+}
