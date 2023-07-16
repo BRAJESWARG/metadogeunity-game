@@ -1,0 +1,41 @@
+.PolygonBlockchainGaming {
+    padding-top: 3rem;
+}
+
+.PolygonBlockchainGaming-box {
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 3rem;
+    display: inline-block;
+    color: aliceblue;
+    /* box-shadow: 5px 5px 10px 5px rgb(133, 233, 225); */
+    box-shadow: 0 6px 20px 0 rgba(9, 204, 26, 0.2), 0 6px 20px 0 rgba(107, 207, 13, 0.19);
+}
+
+.PolygonBlockchainGaming-head {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: Inter, sans-serif;
+}
+
+.PolygonBlockchainGaming-subhead {
+    color: rgb(0 181 255);
+    font-weight: 700;
+}
+
+.PolygonBlockchainGaming-text {
+    font-size: 1.8rem;
+    width: 1000px;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media screen and (max-width: 919.9px) {
+
+    .PolygonBlockchainGaming-text { font-size: 1.2rem; width: 98%; text-align: justify; }
+    .PolygonBlockchainGaming-box {max-width: 95%;}
+}

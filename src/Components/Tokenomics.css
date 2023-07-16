@@ -1,0 +1,82 @@
+.Tokenomics {
+    padding-top: 4rem;
+    background-image: url('./Image/Vector_Smart.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    background-size: cover;
+}
+
+.Tokenomics-box {
+    /* border: 2px solid gray; */
+    /* border-radius: 30px; */
+    /* padding: 3rem; */
+    /* display: inline-block; */
+    color: aliceblue;
+    /* box-shadow: 5px 5px 10px 5px rgb(133, 233, 225); */
+    /* box-shadow: 0 6px 20px 0 rgba(9, 204, 26, 0.2), 0 6px 20px 0 rgba(107, 207, 13, 0.19); */
+}
+
+.Tokenomics-head {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(0 181 255);
+    font-weight: 600;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: Inter, sans-serif;
+}
+
+.Tokenomics-text {
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.marketplace-box {
+    background: transparent url('./Image/border_how_to_buy.svg') no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    max-width: 350px;
+}
+
+.marketplace-head {
+    color: #4acfff !important;
+    font-size: 28px !important;
+    text-align: center !important;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-top: 8rem;
+}
+
+.marketplace-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding: 2rem !important;
+    bottom: 0.5rem !important;
+    text-align: center;
+}
+
+.staking-box {
+    background: transparent url('./Image/border_how_to_buy.svg') no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    max-width: 350px;
+}
+
+.staking-head {
+    color: #4acfff !important;
+    font-size: 28px !important;
+    text-align: center !important;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-top: 8rem;
+}
+
+.staking-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding: 2rem !important;
+    bottom: 0.5rem !important;
+    text-align: center;
+}

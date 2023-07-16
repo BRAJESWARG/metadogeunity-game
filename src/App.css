@@ -4,6 +4,7 @@
 .App {
   text-align: center;
   background-color: #070320;
+  /* opacity: ; */
 }
 
 .bg-body-tertiary {
@@ -16,17 +17,16 @@
 }
 
 .navbar{
-  background: transparent!important;
-  box-shadow: none;
+  background: grey !important;
+  box-shadow: 2px solid green !important;
   height: 100px;
   padding-right: 1em;
   padding-top: 1em;
   transition: margin 195ms cubic-bezier(.4,0,.6,1) 0ms,width 195ms cubic-bezier(.4,0,.6,1) 0ms;
   z-index: 999;
-  /* background: fixed !important; */
-  position: fixed !important;
+  position: sticky !important;
   left: 0 !important;
-  top: 0 !important;
+  top: 0px !important;
 }
 .navbar.active{
   background-color: grey !important;

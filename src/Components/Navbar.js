@@ -1,20 +1,15 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { NavLink } from "react-router-dom";
 // import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import MDULogo from './Image/mdu-logo.jpg';
+import { Link } from "react-scroll";
 
 const Navbar = () => {
 
   const [showMediaIcons, setShowMediaIcons] = useState(false);
-
-  const [showLoginModal, setShowLoginModal] = useState(false);
-
-  const handleCloseLoginModal = () => setShowLoginModal(false);
-  const handleShowLoginModal = () => setShowLoginModal(true);
-
 
   const [showTokenModal, setShowTokenModal] = useState(false);
 
@@ -25,10 +20,10 @@ const Navbar = () => {
     <div className="navbar">
       <nav className="main-nav">
         {/* 1st logo part  */}
-        <div className="logo">
+        <div className="logo nav-logo">
           <h2>
             <img
-              src='https://static.wixstatic.com/shapes/ddd9af05961a402680f77cc4c129ba2f.svg'
+              src={MDULogo}
               alt='Logo' height='50px'
             />
             <span>M</span>eta
@@ -43,34 +38,33 @@ const Navbar = () => {
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }>
           <ul>
-            {
-              // <li>
-              //   <NavLink to="/">Home</NavLink>
-              // </li>
-            }
             <li>
-              <NavLink to="/about">About</NavLink>
+              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+              </Link>
             </li>
             <li>
-              <NavLink to="/features">Features</NavLink>
+              <Link to="MetaDogeUnity" spy={true} smooth={true}>About</Link>
             </li>
             <li>
-              <NavLink to="/staking">Staking</NavLink>
+              <Link to="GamePlay" spy={true} smooth={true}>Features</Link>
             </li>
             <li>
-              <NavLink to="/tokenomics">Tokenomics</NavLink>
+              <Link to="What" spy={true} smooth={true}>Staking</Link>
             </li>
             <li>
-              <NavLink to="/whitepaper">Whitepaper</NavLink>
+              <Link to="Tokenomics" spy={true} smooth={true}>Tokenomics</Link>
             </li>
             <li>
-              <NavLink to="/apply">Apply</NavLink>
+              <Link to="How does it work ?" spy={true} smooth={true}>Whitepaper</Link>
             </li>
             <li>
-              <NavLink to="/roadmap">Roadmap</NavLink>
+              <Link to="/apply" spy={true} smooth={true}>Apply</Link>
             </li>
             <li>
-              <NavLink to="/FAQs">FAQs</NavLink>
+              <Link to="Roadmap" spy={true} smooth={true}>Roadmap</Link>
+            </li>
+            <li>
+              <Link to="FAQs" spy={true} smooth={true}>FAQs</Link>
             </li>
           </ul>
         </div>
@@ -82,14 +76,7 @@ const Navbar = () => {
           }
         >
           <ul className="login-tokens-box-desktop">
-            <li>
-              <button
-                className="login-button"
-                onClick={handleShowLoginModal}
-              >
-                LOGIN
-              </button>
-            </li>
+
             <li>
               <button
                 className="tokens-button"
@@ -114,45 +101,6 @@ const Navbar = () => {
 
       </nav >
 
-
-      <Modal
-        show={showLoginModal}
-        onHide={handleCloseLoginModal}
-        backdrop="static"
-        keyboard={false}
-      >
-        <Modal.Header closeButton>
-        </Modal.Header>
-        <h2 className="login-head" >Login</h2>
-
-        <h6 className="login-text" >
-          To log in please use the method you used during intial account opening process.
-        </h6>
-
-        <Button
-          variant="secondary"
-          onClick={handleCloseLoginModal}
-          className="connect-wallet"
-        >
-          CONNECT WALLET
-        </Button>
-        <div className="or-box">
-          <hr className="hr-left" />
-          <span className="or">OR</span>
-          <hr className="hr-right" />
-        </div>
-        <a href="https://buy.inqubeta.ai/login">
-          <Button
-            variant="primary"
-            className="login-with-email"
-          >
-            LOGIN WITH EMAIL
-          </Button>
-        </a>
-
-      </Modal>
-
-
       <Modal
         show={showTokenModal}
         onHide={handleCloseTokenModal}
@@ -161,37 +109,15 @@ const Navbar = () => {
       >
         <Modal.Header closeButton>
         </Modal.Header>
-        <h2 className="login-head" >Buy Qube</h2>
+        <h2 className="login-head" >Buy MDU</h2>
 
         <Button
           variant="secondary"
-          onClick={handleCloseLoginModal}
+          onClick={handleCloseTokenModal}
           className="connect-wallet"
         >
           CONNECT WALLET
         </Button>
-        <div className="or-box">
-          <hr className="hr-left" />
-          <span className="or">OR</span>
-          <hr className="hr-right" />
-        </div>
-        <a href="https://buy.inqubeta.ai/register">
-          <Button
-            variant="primary"
-            className="login-with-email"
-          >
-            REGISTER WITH EMAIL
-          </Button>
-        </a>
-
-        <h6 className="already-register">
-          Already registered?
-
-          <a href="https://buy.inqubeta.ai/login" className="already-register-login" >
-            Login
-          </a>
-        </h6>
-
       </Modal>
     </div>
   );

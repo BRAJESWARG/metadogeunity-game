@@ -1,0 +1,20 @@
+.PowerdBy{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+.PowerdBy-logo{
+    height: 80px;
+}
+
+.PowerdBy-logo-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.PowerdBy-logo-head{
+    font-size: 4rem;
+    color: blueviolet;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}

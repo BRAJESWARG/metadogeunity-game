@@ -1,0 +1,13 @@
+.HowDoesItWork-head{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(0 181 255);
+    font-weight: 600;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: Inter, sans-serif;
+}
+
+.HowDoesItWork-img{
+    max-width: 100%;
+}

@@ -422,3 +422,12 @@ li {
     font-size: 3.8rem;
   }
 }
+
+@media screen and (max-width: 919.9px) {
+  .nav-logo{
+    margin-left: 1rem;
+  }
+  .navbar{
+    padding-bottom: 3rem;
+  }
+}

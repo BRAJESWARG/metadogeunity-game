@@ -1,0 +1,39 @@
+.GamePlay {
+    margin-top: 5rem;
+    color: aliceblue;
+    font-size: 1.4rem;
+    background-image: url('./Image/Unlocking-the-Power-section-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    background-size: cover;
+}
+
+.GamePlay-head {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(0 181 255);
+    font-weight: 600;
+    padding-bottom: 8rem;
+}
+
+.GamePlay-subhead {
+    text-align: left !important;
+    font-size: 3rem;
+    color: rgb(0 181 255);
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.GamePlay-content {
+    text-align: left !important;
+    font-size: 1.8rem;
+}
+
+.GamePlay-img {
+    width: 100%;
+    height: 100% !important;
+}
+
+.row-devider{
+    padding-bottom: 8rem;
+}

@@ -1,0 +1,57 @@
+.FAQSection {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: aliceblue !important;
+    background-image: url('./Image/FAQ-section-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    background-size: cover;
+}
+
+.FAQ-head-box {
+    text-align: center;
+    font-size: 4rem;
+    /* color: aliceblue; */
+    background: -webkit-linear-gradient(#da2323, rgb(69, 57, 248));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: .4em;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 84% !important;
+}
+
+.accordion-item {
+    color: aliceblue !important;
+    background-color: transparent !important;
+    font-size: 2rem;
+    padding: 1px !important;
+    text-align: left !important;
+}
+
+.accordion-button {
+    color: greenyellow !important;
+    background-color: transparent !important;
+    font-size: 2.5rem;
+    padding: 3rem !important;
+
+}
+
+.accordion-button:focus {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.accordion-body {
+    color: rgb(0 181 255);
+    padding: 2rem 3rem;
+}
+
+@media screen and (max-width: 919.9px) {
+    .container {
+        max-width: 100% !important;
+    }
+}

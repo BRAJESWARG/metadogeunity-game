@@ -1,0 +1,71 @@
+.MetaDogeUnity {
+    max-width: 99%;
+}
+
+.What-is-MetaDogeUnity-box {
+    position: relative;
+    color: antiquewhite;
+    font-size: 1.6rem;
+    text-align: left;
+    line-height: 2.2rem;
+    margin-top: 8rem;
+}
+
+.What-is-MetaDogeUnity {
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+
+}
+
+.What-is-MetaDogeUnity-head {
+    color: rgb(0 181 255);
+}
+
+.MetaDogeUnity-button-box {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.MetaDogeUnity-button {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    border: 2px solid slategray;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.MetaDogeUnity-button-read {
+    background-color: #00b5ff;
+}
+
+.MetaDogeUnity-button-buy {
+    background-color: #0f0;
+}
+
+iframe {
+    border-radius: 20px;
+    max-width: 95% !important;
+
+}
+
+@media screen and (max-width: 919.9px) {
+    .What-is-MetaDogeUnity-head {
+        line-height: 1.8em;
+    }
+
+    .What-is-MetaDogeUnity-box {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .What-is-MetaDogeUnity-box>p {
+        text-align: left;
+    }
+
+    .MetaDogeUnity-button-box {
+        justify-content: center;
+    }
+}
