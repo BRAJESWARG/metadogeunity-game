@@ -242,7 +242,9 @@ li {
   opacity: 1;
   z-index: +10;
 }
-
+.nav-logo > h2 >img {
+  padding-bottom: 20px !important;
+}
 
 /* responsive css style  */
 @media (max-width: 1080px) {

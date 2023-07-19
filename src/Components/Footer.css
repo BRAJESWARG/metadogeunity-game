@@ -1,4 +1,4 @@
-.Footer{
+.Footer {
     margin-top: 8rem;
     padding-bottom: 8rem;
 }
@@ -14,7 +14,7 @@
     justify-content: space-around !important;
 }
 
-.social-head{
+.social-head {
     text-align: left;
 }
 
@@ -29,10 +29,15 @@
     border-radius: 20%;
 }
 
+.Footer-logo>h2>img {
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+
 @media screen and (max-width: 919.9px) {
 
-.Footer-logo{
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-}
+    .Footer-logo {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
 }

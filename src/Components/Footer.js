@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import MDULogo from './Image/mdu-logo.jpg';
+import MDULogo from './Image/mdu-logo.png';
 
 const Footer = () => {
     return (

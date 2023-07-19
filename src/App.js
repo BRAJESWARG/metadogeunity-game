@@ -11,7 +11,7 @@ import HowDoesItWork from './Components/HowDoesItWork';
 import PowerdBy from './Components/PowerdBy';
 import FAQSection from './Components/FAQSection';
 import Footer from './Components/Footer';
-import GoogleTranslate from './Components/GoogleTranslate';
+// import GoogleTranslate from './Components/GoogleTranslate';
 
 function App() {
   return (
