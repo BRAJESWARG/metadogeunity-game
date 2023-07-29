@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './GamePlay.css';
-import LaptopMockup from './Image/future_doge.png';
+import LaptopMockup from './Image/dog standing.png';
+import LaptopMockupMobile from './Image/doge2.png';
 
 const GamePlay = () => {
     return (
@@ -54,6 +55,33 @@ const GamePlay = () => {
                                 </div>
                             </Col>
                         </Row>
+                    </Col>
+                    <Col xs={0} sm={0} md={1} lg={1} xl={1} >
+                    </Col>
+                    <Col xs={12} sm={12} md={5} lg={5} xl={5} >
+                        <img
+                            src={LaptopMockup}
+                            alt='LaptopMockup'
+                            className='GamePlay-img-Desktok LaptopMockupOne'
+                        />
+                        <img
+                            src={LaptopMockupMobile}
+                            alt='LaptopMockupMobile'
+                            className='GamePlay-img-Mobile'
+                        />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12} sm={12} md={5} lg={5} xl={5} >
+                        <img
+                            src={LaptopMockup}
+                            alt='LaptopMockup'
+                            className='GamePlay-img-Desktok'
+                        />
+                    </Col>
+                    <Col xs={0} sm={0} md={1} lg={1} xl={1} >
+                    </Col>
+                    <Col>
                         <Row className='row-devider'>
                             <Col >
                                 <div className='GamePlay-subhead'>
@@ -91,15 +119,6 @@ const GamePlay = () => {
                                 technology.
                             </div>
                         </Row>
-                    </Col>
-                    <Col xs={0} sm={0} md={1} lg={1} xl={1} >
-                    </Col>
-                    <Col xs={12} sm={12} md={5} lg={5} xl={5} >
-                        <img
-                            src={LaptopMockup}
-                            alt='LaptopMockup'
-                            className='GamePlay-img'
-                        />
                     </Col>
                 </Row>
             </Container>

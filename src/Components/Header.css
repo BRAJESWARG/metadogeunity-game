@@ -388,6 +388,13 @@
 
 
 @media screen and (max-width: 919.9px) {
+
+.Header-bg {
+    background-image: url('./Image/header-bg-mobile.png');
+    height: 78rem;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
     
     .header-content {
         padding: 0;
@@ -395,27 +402,28 @@
 
     .quote-box {
         margin-left: 0;
+        padding: 25px;
     }
 
     .Header-text-col {
-        width: auto !important;
+        width: 100% !important;
     }
 
     .row>* {
         max-width: fit-content;
-        width: auto;
+        width: 100%;
     }
 
     .Header-card-col {
         /* width: 100% !important; */
-        text-align: center;
-        margin-left: 3rem;
+        /* text-align: center; */
+        /* margin-left: 3rem; */
         padding-bottom: 2rem;
     }
 
     .card {
         width: 100% !important;
-        margin-left: -2rem;
+        /* margin-left: -2rem; */
     }
 
     .timer-box>div {

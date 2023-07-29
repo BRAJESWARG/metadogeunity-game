@@ -1,3 +1,12 @@
+.HowDoesItWork{
+    background-image: url('./Image/pie-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100% !important;
+}
+.HowDoesItWork-img-box{
+    padding: 25px;
+}
 .HowDoesItWork-head{
     text-align: center;
     font-size: 5rem;

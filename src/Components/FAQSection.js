@@ -12,7 +12,7 @@ const FAQSection = () => {
             </div>
             <div className='ques-box'>
                 <MDBContainer className="mt-5" style={{ maxWidth: '1000px' }}>
-                    <MDBAccordion alwaysOpen initialActive={1}>
+                    <MDBAccordion alwaysOpen initialActive={0}>
                         <MDBAccordionItem collapseId={1} headerTitle="How can I participate in MetaDogeUnity?">
                             To participate in MetaDogeUnity, simply visit our website and follow the instructions to join the community, create an account, and start your journey in the game.
                         </MDBAccordionItem>

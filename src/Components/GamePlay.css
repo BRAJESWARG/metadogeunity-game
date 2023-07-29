@@ -29,11 +29,32 @@
     font-size: 1.8rem;
 }
 
-.GamePlay-img {
+.GamePlay-img-Desktok {
     width: 100%;
-    height: 100% !important;
+    height: 100%;
 }
 
-.row-devider{
+.LaptopMockupOne {
+    transform: scaleX(-1);
+}
+
+.row-devider {
     padding-bottom: 8rem;
+}
+
+@media screen and (max-width: 919.9px) {
+    .GamePlay-img-Desktok {
+        display: none;
+    }
+    .GamePlay-img-Mobile {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 919.9px) {
+    .GamePlay-img-Mobile {
+        display: none;
+    }
+
 }

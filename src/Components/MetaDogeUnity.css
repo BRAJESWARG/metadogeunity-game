@@ -48,12 +48,22 @@
 iframe {
     border-radius: 20px;
     max-width: 95% !important;
+}
 
+.MetaDogeUnity-img {
+    width: 80%;
+    height: 80%;
+    padding-top: 10%;
+    margin-left: -15rem;
 }
 
 @media screen and (max-width: 919.9px) {
     .What-is-MetaDogeUnity-head {
         line-height: 1.8em;
+    }
+
+    .MetaDogeUnity-img {
+        margin-left: 0;
     }
 
     .What-is-MetaDogeUnity-box {
@@ -62,7 +72,8 @@ iframe {
     }
 
     .What-is-MetaDogeUnity-box>p {
-        text-align: left;
+        padding: 15px;
+        text-align: justify;
     }
 
     .MetaDogeUnity-button-box {

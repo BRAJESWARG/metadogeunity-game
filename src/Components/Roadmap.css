@@ -1,5 +1,5 @@
 .Roadmap {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     color: aliceblue;
     font-size: 1.4rem;
     background-image: url('./Image/Roadmap-section-bg.jpg');
@@ -173,7 +173,7 @@
             rgba(245, 87, 108, 1));
 }
 
-.Roadmap-list{
+.Roadmap-list {
     text-align: left;
 }
 
